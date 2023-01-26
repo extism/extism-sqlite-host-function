@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "extism-sqlite-host-function"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Eckel <bhelx@simst.im>"]
+license = "BSD-Clause-3"
+readme = "README.md"
+packages = [{include = "extism_sqlite_host_function"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+extism = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
