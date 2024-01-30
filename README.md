@@ -1,5 +1,8 @@
 # Extism Host Function SQL Demo
 
+> Warning: This example is pre-1.0 Extism. If you'd like to update it, please do! If you're not sure how
+> please reach out to us in Discord.
+
 This is a simple demo of using a host function to expose a SQL database to your plugin. In this case our host
 is python and our database is a sqlite database. Our plugin is written in Rust.
 
